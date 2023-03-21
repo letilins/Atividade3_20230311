@@ -21,6 +21,15 @@ class ContaBancaria {
     private String nomeTitular;
     private double saldo;
 
+     
+public int getNumeroConta(){
+        return this.numeroConta;
+    }
+
+    public String getNomeTitular(){
+        return this.nomeTitular;
+    }
+
     public ContaBancaria(int numeroConta, String nomeTitular) {
         this.numeroConta = numeroConta;
         this.nomeTitular = nomeTitular;
